@@ -1,0 +1,132 @@
+/*Claases to be styled together for unified look of table*/
+.gaia-argoui-app-index-toolbar,
+.contents-bottommenu-gaia,
+.gaia-argoui-app-index-pager,
+.contents-gaia.app-index-contents-gaia,
+.gaia-argoui-app-info-content  {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
+
+/* Links */
+a {
+    color: #00BF63 !important;
+}
+
+/* Backgrounds */
+/*Remove default backgrounds*/
+
+body {
+    background: #EBEDEF !important;
+}
+
+.gaia-argoui-app-index-toolbar,
+.contents-bottommenu-gaia,
+.gaia-argoui-app-index-pager,
+.app-index-container-gaia,
+.gaia-argoui-app-index-breadcrumb,
+.gaia-argoui-app-info-content {
+    background: transparent !important;
+}
+
+.gaia-argoui-app-info-content {
+    border-bottom: unset !important;
+}
+
+.gaia-argoui-app-infobar-breadcrumb-iconlist {
+    background-color: #FFF;
+}
+
+/* Headers */
+.gaia-argoui-app-info-content {
+    padding: 16px 0 !important;
+    width: unset !important;
+}
+
+
+/* Table */ 
+table.recordlist-gaia.recordlist-manually-adjusted-gaia,
+.gaia-argoui-app-toolbar {
+    box-shadow: 0 0 5px #BDC4CB;
+    border-radius: 5px !important;
+}
+
+.contents-gaia.app-index-contents-gaia {
+    width: unset !important;;
+}
+
+tbody .recordlist-row-gaia:nth-child(odd) {
+    background-color: unset !important;
+}
+
+tr.recordlist-row-gaia:hover {
+    background-color: #F1FFF8 !important; 
+}
+
+.recordlist-header-cell-gaia {
+    border-style: unset !important;
+    border-bottom-style: solid !important;
+    letter-spacing: unset !important;
+    font-weight: 600 !important;
+}
+
+.recordlist-cell-gaia, 
+.recordlist-editcell-gaia.recordlist-edit-calc-gaia {
+    border-right: unset !important;
+    border-bottom-style: solid !important; 
+}
+
+.recordlist-cell-gaia {
+    font-weight: lighter !important;
+}
+
+.listView-control-gaia, .recordlist-gaia {
+    font-size: 16px !important;
+}
+
+/* Fonts */
+:lang(en) body {
+    font-family: Gill Sans, sans-serif !important;
+}
+
+/* Icons */
+
+.recordlist-cancel-icon-gaia, 
+.recordlist-edit-icon-gaia {
+    filter: invert(57%) sepia(79%) saturate(4617%) hue-rotate(124deg) brightness(103%) contrast(102%) !important;
+}
+
+
+/* PORTAL */
+/* Background */
+body {
+    background: #EBEDEF !important;
+}
+
+/* Widgets */
+.gaia-argoui-widget {
+    box-shadow: 0 0 5px #BDC4CB !important;
+    letter-spacing: unset !important;
+    border-radius: 5px !important;
+}
+
+.gaia-argoui-widget-header.gaia-argoui-widget-header-icon {
+    background-image: none !important;
+}
+
+.gaia-argoui-widget-header {
+    padding: 0 10px !important;
+}
+
+ul.gaia-argoui-appscrollinglist-list li {
+    background-color: unset !important;
+}
+
+ul.gaia-argoui-appscrollinglist-list li:hover {
+    background-color: #F1FFF8 !important;
+}
+
+/* Fonts */
+:lang(en) body {
+    font-family: Gill Sans, sans-serif !important;
+}
