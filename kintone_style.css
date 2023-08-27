@@ -86,7 +86,7 @@ tr.recordlist-row-gaia:hover {
 
 /* Fonts */
 :lang(en) body {
-    font-family: Gill Sans, sans-serif !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
 }
 
 /* Icons */
@@ -101,6 +101,14 @@ tr.recordlist-row-gaia:hover {
 /* Background */
 body {
     background: #EBEDEF !important;
+}
+
+.ocean-portal-index-header-name-wrapper {
+    text-shadow: unset !important;
+}
+
+.ocean-portal-index-header-name {
+    color: #000 !important;
 }
 
 /* Widgets */
@@ -128,5 +136,81 @@ ul.gaia-argoui-appscrollinglist-list li:hover {
 
 /* Fonts */
 :lang(en) body {
-    font-family: Gill Sans, sans-serif !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+
+/* FORM */
+
+.page-app-show.body-record body {
+    height: unset !important;
+
+}
+
+.gaia-argoui-floater-box {
+    margin: 0 10% !important;
+    width: unset !important;
+    min-width: unset !important;
+}
+
+#record-gaia {
+    background-color: unset !important;
+    padding: 16px 10% !important;
+}
+
+.layout-gaia.showlayout-gaia {
+    width: unset !important;
+    padding: 10px 0 !important;
+    border-radius: 5px !important;
+    box-shadow: 0 0 5px #BDC4CB !important;
+}
+
+.gaia-argoui-app-show-breadcrumb {
+    background-color: unset !important;
+}
+
+.showlayout-gaia {
+    background-color: #fff !important;
+}
+
+.control-label-gaia {
+    background-color: unset !important;
+}
+
+.gaia-argoui-app-show-sidebar {
+    margin-top: 16px !important;
+}
+
+
+/* FORM EDIT */
+
+.gaia-argoui-app-edit-breadcrumb {
+    background-color: unset !important;
+}
+
+.page-app-edit.body-record-edit body {
+    height: unset !important;
+}
+
+#appForm-gaia {
+    width: unset !important;
+    margin: 0 10% !important;
+    box-shadow: 0 0 5px #BDC4CB !important;
+    border-radius: 5px !important;
+}
+
+.gaia-argoui-app-edit-buttons {
+    border-radius: 5px !important;
+}
+.gaia-argoui-app-edit-buttons button {
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+#record-gaia .layout-gaia.editablelayout-gaia {
+    width: unset !important;
+    padding: 10px 0 !important;
+    border-radius: 5px !important;
+    box-shadow: 0 0 5px #BDC4CB !important;
+    background-color: #fff !important;
 }
